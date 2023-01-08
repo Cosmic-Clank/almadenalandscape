@@ -1063,7 +1063,7 @@ label {
 	padding: 0 5%;
 	display: grid;
 	height: 100%;
-	grid-template-columns: 1fr 2fr 2fr;
+	grid-template-columns: 1fr 2fr 2.5fr;
 }
 
 #footer .info h3 {
@@ -1095,6 +1095,7 @@ label {
 #footer .links {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
 	gap: 40px;
 	grid-row: span 2;
 }
@@ -1110,7 +1111,7 @@ label {
 	color: #eee !important;
 	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
@@ -1123,7 +1124,7 @@ label {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-right: 60%;
+	padding: 3% 60% 0 0;
 	align-items: flex-end;
 }
 
