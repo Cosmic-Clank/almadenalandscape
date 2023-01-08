@@ -429,7 +429,7 @@ header .intro-text {
 }
 
 #about .btn:hover {
-	background: #6aaf08;
+	background: #446B44;
 	color: #fff;
 }
 
@@ -673,16 +673,14 @@ header .intro-text {
 }
 
 #logos .slick-dots li.slick-active button:before {
-	color: #6aaf08;
+	color: #446B44;
 }
 
 #logos .slick-next:before,
 #logos .slick-prev:before {
-	color: #6aaf08;
+	color: #446B44;
 	font-size: 28px;
 }
-
-
 
 /* Portfolio Section */
 #portfolio {
@@ -719,12 +717,12 @@ ol.type li a {
 }
 
 ol.type li a.active {
-	background: #6aaf08;
+	background: #446B44;
 	color: #fff;
 }
 
 ol.type li a:hover {
-	background: #6aaf08;
+	background: #446B44;
 	color: #fff;
 }
 
@@ -834,7 +832,7 @@ ol.type li a:hover {
 
 #testimonials .overlay {
 	padding: 60px 0;
-	background: rgba(106, 175, 8, 0.85);
+	background: #5a835bd9;
 }
 
 #testimonials h2 {
@@ -902,7 +900,7 @@ ol.type li a:hover {
 }
 
 #contact .contact-form .btn:hover {
-	background: #6aaf08;
+	background: #446B44;
 	color: #fff;
 }
 
@@ -994,8 +992,8 @@ label {
 }
 
 #contact .contact-info a:hover {
-	border-color: #6aaf08;
-	color: #6aaf08;
+	border-color: #446B44;
+	color: #446B44;
 }
 
 #contact .contact-info hr {
@@ -1088,8 +1086,8 @@ label {
 }
 
 #footer .info a:hover {
-	color: #6aaf08;
-	border-color: #6aaf08;
+	color: #446B44;
+	border-color: #446B44;
 }
 
 #footer .links {
@@ -1108,7 +1106,7 @@ label {
 }
 
 #footer .links a:hover {
-	color: #6aaf08 !important;
+	color: #446B44 !important;
 }
 
 #footer .social-links {
