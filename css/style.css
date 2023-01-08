@@ -182,6 +182,7 @@ hr {
 
 #navigationbar .hamburger {
 	display: none;
+	cursor: pointer;
 }
 
 #navigationbar .hamburger i {
@@ -1043,7 +1044,7 @@ label {
 }
 
 #footer .overlay {
-	padding: 40px 0;
+	padding: 40px 0 0 0;
 	background: rgba(90, 131, 91, 0.85);
 }
 
@@ -1062,7 +1063,7 @@ label {
 	padding: 0 5%;
 	display: grid;
 	height: 100%;
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: 1fr 2fr 2fr;
 }
 
 #footer .info h3 {
@@ -1070,6 +1071,7 @@ label {
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 3px;
+	margin: 0;
 }
 
 #footer .info p {
@@ -1078,7 +1080,7 @@ label {
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 3px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 #footer .info a {
@@ -1092,16 +1094,23 @@ label {
 
 #footer .links {
 	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	grid-row: span 2;
+}
+
+#footer .links .sec {
+	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 20px;
 	grid-row: span 2;
 }
 
 #footer .links a {
 	color: #eee !important;
-	font-size: 16px;
-	font-weight: 700;
-	letter-spacing: 4px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
@@ -1110,12 +1119,33 @@ label {
 }
 
 #footer .social-links {
-	grid-column: span 2;
+	grid-column: span 3;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding-right: 60%;
 	align-items: flex-end;
+}
+
+#footer .social-links .social-link {
+	color: #ffffff;
+}
+
+#footer .social-links .social-link i {
+	font-size: 32px;
+}
+
+#footer .copyright-text {
+	color: #e6e6e6a9;
+	font-weight: 400;
+	letter-spacing: 2px;
+	grid-column: span 3;
+	text-align: center;
+	padding: 3% 0 1% 0;
+}
+#footer .copyright-text p {
+	margin-bottom: 0;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1152,14 +1182,9 @@ label {
 	#footer .links a {
 		margin-bottom: 20px;
 	}
-}
-
-#footer .social-links .social-link {
-	color: #ffffff;
-}
-
-#footer .social-links .social-link i {
-	font-size: 32px;
+	#footer .copyright-text {
+		grid-column: span 1;
+	}
 }
 
 .terms-of-service-container {
