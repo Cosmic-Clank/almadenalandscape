@@ -435,6 +435,11 @@ header .intro-text {
 }
 
 #about .about-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
 	padding: 0 10%;
 }
 
@@ -478,20 +483,12 @@ header .intro-text {
 	margin-top: 20px;
 }
 
-#about .about-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	gap: 50px;
-}
-
 #about .image-grid {
 	position: relative;
 	display: grid;
-	margin: 5%;
+	margin: 2%;
 
-	width: 420px;
+	width: auto;
 	height: auto;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
@@ -509,7 +506,7 @@ header .intro-text {
 }
 
 @media screen and (max-width: 768px) {
-	#about .about-content {
+	#about .about-container {
 		flex-direction: column-reverse;
 	}
 
