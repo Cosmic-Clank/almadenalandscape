@@ -284,7 +284,7 @@ header {
 }
 
 .slide-left {
-	transform: translateX(50vw);
+	transform: translateX(90vw);
 }
 
 .slide-left.appear {
@@ -766,14 +766,8 @@ ol.type li a:hover {
 }
 
 .portfolio-item {
-	margin: 22px 0;
+	margin: 20px 0;
 	height: 300px;
-}
-
-@media screen and (max-width: 1030px) {
-	.portfolio-item {
-		height: 200px;
-	}
 }
 
 
@@ -794,7 +788,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #fff;
 	background: rgba(0, 0, 0, 0.6);
-	padding: 30% 0 0 0;
+	padding: 40% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
