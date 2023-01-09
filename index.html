@@ -339,6 +339,9 @@
         <div class="logo transition fade-in slide-up"><img src="./img/logos/15.jpg" alt="logo"></div>
         <div class="logo transition fade-in slide-up"><img src="./img/logos/16.png" alt="logo"></div>
         <div class="logo transition fade-in slide-up"><img src="./img/logos/17.png" alt="logo"></div>
+        <div class="logo transition fade-in slide-up"><img src="./img/logos/18.png" alt="logo"></div>
+        <div class="logo transition fade-in slide-up"><img src="./img/logos/19.jpg" alt="logo"></div>
+        <div class="logo transition fade-in slide-up"><img src="./img/logos/20.png" alt="logo"></div>
       </div>
     </div>
 
@@ -356,7 +359,7 @@
         <ul class="cat">
           <li>
             <ol class="type">
-              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".community-maintenance" class="active">All</a></li>
               <li><a href="#" data-filter=".garden-makeover">Garden Makeover</a></li>
               <li><a href="#" data-filter=".building-maintenance">Building Maintenance</a></li>
             </ol>
@@ -987,10 +990,10 @@
     $('.logos-slider').slick({
       slidesToShow: 5,
       slidesToScroll: 5,
-      swipeToSlide: true,
+      infinite: true,
+      // swipeToSlide: true,
       dots: true,
       arrows: true,
-      infinite: true,
       responsive: [
         {
           breakpoint: 1024,
