@@ -304,6 +304,7 @@ header {
 
 .intro {
 	display: flex;
+	gap: 3%;
 	width: 100%;
 	min-height: 100vh;
 
@@ -361,9 +362,11 @@ header {
 
 .intro .image-grid {
 	margin-top: 50px;
+	flex: 1;
 	display: grid;
-	width: 510px;
-	height: 510px;
+	max-width: 540px;
+	width: auto;
+	height: auto;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 20px;
@@ -439,7 +442,7 @@ header .intro-text {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	gap: 50px;
+	gap: 3%;
 	padding: 0 10%;
 }
 
@@ -484,10 +487,9 @@ header .intro-text {
 }
 
 #about .image-grid {
-	position: relative;
 	display: grid;
 	margin: 2%;
-
+	max-width: 540px;
 	width: auto;
 	height: auto;
 	grid-template-columns: 1fr 1fr;
@@ -510,9 +512,6 @@ header .intro-text {
 		flex-direction: column-reverse;
 	}
 
-	.about-content .image-grid {
-		margin: 2%;
-	}
 }
 
 /* Numbers Section */
