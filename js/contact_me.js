@@ -19,14 +19,16 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "contact_me.php",
+                url: "https://formsubmit.co/info@madinalandscape.com",
                 type: "POST",
                 data: {
                     name: name,
                     email: email,
                     mobile: mobile,
                     subject: subject,
-                    message: message
+                    message: message,
+
+                    _subject: subject + '- New message by -> ' + name + 'sent from Al Madena Landscape contact form!',
                 },
                 cache: false,
                 success: function() {

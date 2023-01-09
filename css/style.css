@@ -767,7 +767,7 @@ ol.type li a:hover {
 
 .portfolio-item {
 	margin: 20px 0;
-	height: 300px;
+	height: 180px;
 }
 
 
@@ -788,7 +788,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #fff;
 	background: rgba(0, 0, 0, 0.6);
-	padding: 40% 0 0 0;
+	padding: 23% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -894,7 +894,7 @@ ol.type li a:hover {
 	color: #000;
 }
 
-#contact .contact-form .btn:hover {
+#contact .contact-form .btn:is(:hover, :focus) {
 	background: #446B44;
 	color: #fff;
 }

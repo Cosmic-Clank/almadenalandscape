@@ -1,0 +1,7 @@
+with open('pyth.html', 'w') as f:
+    for i in range(1,13):
+        f.write(f'<div class="col-sm-6 col-md-4 building-maintenance transition fade-in">\n<div class="portfolio-item">\n<div class="hover-bg"> <a href="img/portfolio/building-maintenance/BM{i}.jpg" title="Project Title"\ndata-lightbox-gallery="gallery1">\n<div class="hover-text">\n<h4>Building Maintenance</h4>\n</div>\n<img src="img/portfolio/building-maintenance/BM{i}.jpg" class="img-responsive" alt="Project Title">\n</a>\n</div>\n</div>\n</div>')
+    for i in range(1,68):
+        f.write(f'<div class="col-sm-6 col-md-4 community-maintenance transition fade-in">\n<div class="portfolio-item">\n<div class="hover-bg"> <a href="img/portfolio/community-maintenance/CM{i}.jpg" title="Project Title"\ndata-lightbox-gallery="gallery1">\n<div class="hover-text">\n<h4>Community Maintenance</h4>\n</div>\n<img src="img/portfolio/community-maintenance/CM{i}.jpg" class="img-responsive" alt="Project Title">\n</a>\n</div>\n</div>\n</div>')
+    for i in range(1,69):
+        f.write(f'<div class="col-sm-6 col-md-4 garden-makeover transition fade-in">\n<div class="portfolio-item">\n<div class="hover-bg"> <a href="img/portfolio/garden-makeover/GM{i}.jpg" title="Project Title"\ndata-lightbox-gallery="gallery1">\n<div class="hover-text">\n<h4>Garden Makeover</h4>\n</div>\n<img src="img/portfolio/garden-makeover/GM{i}.jpg" class="img-responsive" alt="Project Title">\n</a>\n</div>\n</div>\n</div>')

@@ -38,7 +38,7 @@ function main() {
           duration: 750,
           easing: 'linear',
           queue: false
-        }
+        },
       });
       $('.cat a').click(function () {
         $('.cat .active').removeClass('active');
