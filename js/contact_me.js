@@ -24,9 +24,9 @@ $(function() {
                 data: {
                     name: name,
                     email: email,
-                    message: message,
                     mobile: mobile,
-                    subject: subject
+                    subject: subject,
+                    message: message
                 },
                 cache: false,
                 success: function() {

@@ -945,7 +945,7 @@ label {
 	color: #444;
 	background-color: #fff;
 	background-image: none;
-	border: 1px solid #ddd;
+	border: none;
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -955,9 +955,7 @@ label {
 }
 
 #contact .form-control:focus {
-	outline: 0;
-	-webkit-box-shadow: 0 0 15px #ddd;
-	box-shadow: 0 0 15px #ddd;
+	border: #000 1px solid;
 }
 
 .form-control::-webkit-input-placeholder {
