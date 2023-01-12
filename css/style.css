@@ -761,8 +761,8 @@ ol.type li a:hover {
 }
 
 .portfolio-item {
-	margin: 20px 0;
-	height: 180px;
+	margin: 25px 0;
+	height: 240px;
 }
 
 
@@ -783,7 +783,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #fff;
 	background: rgba(0, 0, 0, 0.6);
-	padding: 23% 0 0 0;
+	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
